@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/tensorflow-notebook
 
 RUN conda install --quiet --yes 'gensim=3.8.*'  \
     &&                                          \
